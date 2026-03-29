@@ -93,7 +93,7 @@ export default function RegisterPage() {
               onChange={(e) => setUsername(e.target.value)}
               disabled={busy}
               className="field mt-1 disabled:cursor-not-allowed disabled:opacity-60"
-              placeholder="linhday123"
+              placeholder="anhkhoa060705"
               required
             />
             {clientErrors.username ? (
