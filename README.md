@@ -130,7 +130,7 @@ git push
 Clone lại:
 
 ```powershell
-git clone https://github.com/Linhday123/gk_ptud_gallery_app.git
+git clone https://github.com/AnhKhoa-67/test_midterm.git
 cd gk_ptud_gallery_app
 ```
 
