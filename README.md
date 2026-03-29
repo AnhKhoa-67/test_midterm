@@ -10,6 +10,7 @@ Tải Node.js tại: https://nodejs.org/en/download
 Chọn bản **LTS** → cài đặt bình thường → khởi động lại máy tính.
 
 > Kiểm tra đã cài thành công chưa:
+>
 > ```powershell
 > node -v
 > npm -v
@@ -35,6 +36,7 @@ uvicorn backend.main:app --reload
 ```
 
 > Nếu lỗi **không có quyền admin** khi dùng `pip`, thêm `--user` vào cuối:
+>
 > ```powershell
 > pip install -r requirements.txt --user
 > ```
@@ -104,7 +106,7 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/Linhday123/gk_ptud_gallery_app.git
+git remote add origin https://github.com/AnhKhoa-67/test_midterm.git
 git pull origin main --allow-unrelated-histories
 git push -u origin main
 ```
