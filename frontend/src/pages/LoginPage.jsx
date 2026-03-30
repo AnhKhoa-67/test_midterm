@@ -98,6 +98,11 @@ export default function LoginPage() {
               Đăng ký ngay
             </Link>
           </div>
+          <div className="mt-3 rounded-lg border border-teal-100 bg-teal-50 p-3 text-center text-sm text-slate-700">
+            <p className="font-medium text-teal-700">Tài khoản demo</p>
+            <p>Email: anhkhoa060705@gmail.com</p>
+            <p>Mật khẩu: ak060705</p>
+          </div>
         </div>
       </div>
     </div>
