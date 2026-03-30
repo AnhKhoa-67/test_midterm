@@ -153,7 +153,7 @@ export default function RegisterPage() {
 
         <div className="mt-5 text-center text-sm text-slate-600">
           Đã có tài khoản?{" "}
-          <Link to="/login" className="font-semibold text-teal-700 hover:text-teal-800">
+          <Link to="/login" className="font-semibold text-[#9a3412] hover:text-[#7c2d12]">
             Đăng nhập
           </Link>
         </div>

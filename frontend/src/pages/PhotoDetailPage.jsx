@@ -155,7 +155,7 @@ export default function PhotoDetailPage() {
                       </div>
                     </div>
 
-                    <div className="rounded-2xl border border-slate-200 bg-slate-50 px-4 py-3">
+                    <div className="rounded-2xl border border-[#dccfc0] bg-[#f8f1e8] px-4 py-3">
                       <div className="text-xs font-semibold text-slate-600">Ngày tải lên</div>
                       <div className="mt-1 text-sm font-medium text-slate-900">{uploadedAt}</div>
                     </div>

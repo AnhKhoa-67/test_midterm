@@ -28,12 +28,12 @@ export default function App() {
           position="top-right"
           toastOptions={{
             style: {
-              background: "rgba(255,255,255,0.96)",
-              color: "#162033",
-              border: "1px solid #d8dee9",
+              background: "rgba(255, 251, 245, 0.97)",
+              color: "#2f241f",
+              border: "1px solid #dccfc0",
               borderRadius: "16px",
               backdropFilter: "blur(10px)",
-              boxShadow: "0 16px 42px rgba(15, 23, 42, 0.10)",
+              boxShadow: "0 16px 42px rgba(61, 42, 28, 0.12)",
             },
           }}
         />

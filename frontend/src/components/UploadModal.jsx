@@ -87,7 +87,7 @@ export default function UploadModal({ isOpen, onClose, onUploaded }) {
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4">
       <div
-        className="absolute inset-0 bg-slate-900/30 backdrop-blur-sm"
+        className="absolute inset-0 bg-[rgba(61,42,28,0.3)] backdrop-blur-sm"
         onClick={() => (busy ? null : onClose())}
       />
 
@@ -136,7 +136,7 @@ export default function UploadModal({ isOpen, onClose, onUploaded }) {
                   accept="image/jpeg,image/png"
                   onChange={(e) => setFile(e.target.files?.[0] ?? null)}
                   disabled={busy}
-                  className="mt-1 block w-full text-sm text-slate-700 file:mr-3 file:rounded-xl file:border-0 file:bg-slate-100 file:px-3 file:py-2 file:text-sm file:font-medium file:text-slate-700 hover:file:bg-slate-200 disabled:cursor-not-allowed disabled:opacity-60"
+                  className="mt-1 block w-full text-sm text-slate-700 file:mr-3 file:rounded-xl file:border-0 file:bg-orange-100 file:px-3 file:py-2 file:text-sm file:font-medium file:text-[#7c2d12] hover:file:bg-orange-200 disabled:cursor-not-allowed disabled:opacity-60"
                 />
                 {/* 📝 VĂN BẢN: Ghi chú định dạng hỗ trợ */}
                 <div className="mt-1 text-xs text-slate-500">Hỗ trợ: JPG, JPEG, PNG</div>
@@ -158,7 +158,7 @@ export default function UploadModal({ isOpen, onClose, onUploaded }) {
             </div>
 
             <div className="space-y-3">
-              <div className="overflow-hidden rounded-3xl border border-slate-200 bg-slate-50">
+              <div className="overflow-hidden rounded-3xl border border-[#dccfc0] bg-[#f8f1e8]">
                 {previewUrl ? (
                   <img
                     src={previewUrl}
@@ -174,16 +174,16 @@ export default function UploadModal({ isOpen, onClose, onUploaded }) {
                 )}
               </div>
 
-              <div className="rounded-3xl border border-slate-200 bg-white p-4">
+              <div className="rounded-3xl border border-[#dccfc0] bg-white p-4">
                 <div className="flex items-center justify-between text-sm">
                   {/* 📝 VĂN BẢN: Nhãn thanh tiến độ */}
                   <span className="font-medium text-slate-800">Tiến độ tải lên</span>
                   {/* 📝 VĂN BẢN: Trạng thái % hoặc "Chưa bắt đầu" */}
                   <span className="text-slate-500">{busy ? `${progress}%` : "Chưa bắt đầu"}</span>
                 </div>
-                <div className="mt-3 h-2 w-full overflow-hidden rounded-full bg-slate-100">
+                <div className="mt-3 h-2 w-full overflow-hidden rounded-full bg-orange-100">
                   <div
-                    className="h-full rounded-full bg-teal-600 transition-all"
+                    className="h-full rounded-full bg-[#9a3412] transition-all"
                     style={{ width: `${busy ? progress : 0}%` }}
                   />
                 </div>

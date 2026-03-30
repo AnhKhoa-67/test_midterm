@@ -122,7 +122,7 @@ export default function GalleryPage() {
         <section className="panel rounded-[32px] p-5 shadow-card sm:p-6">
           <div className="flex flex-col gap-4 lg:flex-row lg:items-end lg:justify-between">
             <div className="min-w-0">
-              <div className="text-sm font-medium text-teal-700">Tổng quan</div>
+              <div className="text-sm font-medium text-[#9a3412]">Tổng quan</div>
               <h1 className="mt-1 text-2xl font-semibold tracking-tight text-slate-900">{headerText}</h1>
               <p className="mt-2 text-sm text-slate-600">
                 {isSearching ? `Tìm thấy ${total} kết quả phù hợp.` : `Bạn đang có ${total} ảnh trong thư viện.`}
@@ -193,7 +193,7 @@ export default function GalleryPage() {
                     <div className="mt-2 text-sm text-slate-600">
                       Ngày tải: {formatDate(p.uploaded_at)}
                     </div>
-                    <div className="mt-3 text-sm font-medium text-teal-700">Xem chi tiết</div>
+                    <div className="mt-3 text-sm font-medium text-[#9a3412]">Xem chi tiết</div>
                   </div>
                 </Link>
               ))}

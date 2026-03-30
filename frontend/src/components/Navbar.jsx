@@ -14,7 +14,7 @@ export default function Navbar({
   const isGallery = location.pathname === "/gallery";
 
   return (
-    <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-white/90 backdrop-blur">
+    <header className="sticky top-0 z-40 border-b border-[#dccfc0]/90 bg-[#fffaf4]/90 backdrop-blur">
       <div className="mx-auto flex max-w-6xl flex-col gap-3 px-4 py-4 sm:px-6 lg:flex-row lg:items-center">
         <div className="min-w-0 flex-1">
           <Link to="/gallery" className="group inline-flex flex-col">

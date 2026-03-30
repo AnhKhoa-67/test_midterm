@@ -38,11 +38,11 @@ export default function LoginPage() {
   return (
     <div className="mx-auto flex min-h-dvh max-w-6xl items-center justify-center px-4 py-10 sm:px-6">
       <div className="grid w-full max-w-4xl gap-6 lg:grid-cols-[1.1fr_0.9fr]">
-        <div className="hidden rounded-[32px] bg-teal-700 p-8 text-white shadow-card lg:block">
+        <div className="hidden rounded-[32px] bg-[#7c2d12] p-8 text-white shadow-card lg:block">
           <div className="max-w-sm">
-            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-teal-100">GK Photo</div>
+            <div className="text-sm font-semibold uppercase tracking-[0.24em] text-orange-100">GK Photo</div>
             <h1 className="mt-4 text-4xl font-semibold leading-tight">Lưu trữ ảnh gọn gàng, dễ sử dụng.</h1>
-            <p className="mt-4 text-sm leading-7 text-teal-50/90">
+            <p className="mt-4 text-sm leading-7 text-orange-50/90">
               Đăng nhập để xem thư viện ảnh, tìm kiếm theo tên, cập nhật thông tin và xóa ảnh khi cần.
             </p>
           </div>
@@ -94,12 +94,12 @@ export default function LoginPage() {
 
           <div className="mt-6 text-center text-sm text-slate-600">
             Chưa có tài khoản?{" "}
-            <Link to="/register" className="font-semibold text-teal-700 hover:text-teal-800">
+            <Link to="/register" className="font-semibold text-[#9a3412] hover:text-[#7c2d12]">
               Đăng ký ngay
             </Link>
           </div>
-          <div className="mt-3 rounded-lg border border-teal-100 bg-teal-50 p-3 text-center text-sm text-slate-700">
-            <p className="font-medium text-teal-700">Tài khoản demo</p>
+          <div className="mt-3 rounded-lg border border-orange-200 bg-orange-50 p-3 text-center text-sm text-slate-700">
+            <p className="font-medium text-[#9a3412]">Tài khoản demo</p>
             <p>Email: anhkhoa060705@gmail.com</p>
             <p>Mật khẩu: ak060705</p>
           </div>
