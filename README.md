@@ -99,6 +99,8 @@ conn.close()
 
 ### Lần đầu: tạo repo local rồi đẩy lên GitHub
 
+<!-- https://github.com/Linhday123/gk_ptud_gallery_app.git -->
+
 Trong thư mục `GK`:
 
 ```powershell
